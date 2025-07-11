@@ -1,0 +1,43 @@
+# =========  Build e dependências  =========
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# =========  Arquivos de sistema e temporários  =========
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+*.class
+*~
+*.bak
+
+# =========  Eclipse / STS (Spring Tool Suite)  =========
+.metadata/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# =========  IntelliJ IDEA  =========
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========  NetBeans  =========
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# =========  VS Code  =========
+.vscode/
+
+# =========  Outros  =========
+HELP.md
